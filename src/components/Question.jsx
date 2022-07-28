@@ -41,7 +41,6 @@ function Question({ questions }) {
   }
 
   const handleNextQuestion = () => {
-    console.log(currentQuestion, questions.length - 1)
     if (currentQuestion === questions.length - 1) {
       navigate('/summary')
     }
@@ -74,7 +73,7 @@ function Question({ questions }) {
         ))}
       </div>
       <button onClick={handleNextQuestion} className='btn btn-success mt-3'>
-        Next Question
+        Next question
       </button>
     </div>
   )

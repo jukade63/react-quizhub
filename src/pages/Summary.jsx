@@ -8,9 +8,6 @@ function Summary() {
   const { amount, category, difficulty, countCorrect } = useContext(QuizContext)
   const categoryIdx = categories.findIndex((item) => item.value === category)
 
-  console.log(category)
-  console.log(difficulty)
-
   return (
     <div className='summary'>
       <div className='col d-flex justify-content-center align-items-center h-100 flex-column'>
