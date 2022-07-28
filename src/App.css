@@ -1,0 +1,49 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+html {
+  font-size: 22px;
+}
+
+.home,
+.quiz,
+.summary {
+  height: 100vh;
+}
+
+.answer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.answer {
+  border-radius: 0.2em;
+  border: none;
+  margin-bottom: 10px;
+  width: 450px;
+  padding: 0.5rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.disabled {
+  background-color: lightgray;
+  color: gray;
+}
+
+.answer:hover {
+  background-color: black;
+  color: white;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+.wrong {
+  background-color: red;
+  color: white;
+}
